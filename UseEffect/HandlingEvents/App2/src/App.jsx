@@ -1,9 +1,9 @@
-import MouseClicker from "./MouseClicker";
+import Chat from "./Chat";
 
 const App = () => {
   return (
     <div>
-      <MouseClicker />
+      <Chat />
     </div>
   );
 };
