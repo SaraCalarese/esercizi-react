@@ -4,7 +4,7 @@ const Container = ({ title, children }) => {
   const [collapsed, setCollapsed] = useState(false);
 
   return (
-    <div className="border-2 border-red-500 bg-white p-4 rounded-lg shadow-md">
+    <div className="container">
       <h2
         className="cursor-pointer text-lg font-bold text-red-600"
         onClick={() => setCollapsed(!collapsed)}
