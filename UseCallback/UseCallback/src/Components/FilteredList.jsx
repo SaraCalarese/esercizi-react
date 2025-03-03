@@ -9,7 +9,7 @@ const FilteredList = ({ list }) => {
 
   return (
     <div>
-      <h2>Lista filtrata (età > 18):</h2>
+      <h2>Lista filtrata (età 18):</h2>
       <ul>
         {filteredList.map((item) => (
           <li key={item.id}>
